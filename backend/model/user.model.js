@@ -17,7 +17,6 @@ const userSchema = new mongoose.Schema({
         type:Number,
         required:true
     }
-
 })
 
 const User = mongoose.model('User',userSchema)
