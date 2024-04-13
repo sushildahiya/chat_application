@@ -14,7 +14,7 @@ const userSchema = new mongoose.Schema({
         required:true
     },
     contact_no:{
-        type:Number,
+        type:String,
         required:true
     }
 })
